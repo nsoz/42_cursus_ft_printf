@@ -6,7 +6,7 @@
 /*   By: muoz <muoz@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/19 12:52:31 by muoz              #+#    #+#             */
-/*   Updated: 2023/07/22 20:59:49 by muoz             ###   ########.fr       */
+/*   Updated: 2023/07/23 15:14:50 by muoz             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <unistd.h>
 
 int	ft_printf(const char *format, ...);
-int	ft_putchar(unsigned char c);
+int	ft_putchar(int c);
 int	ft_putstr(char *str);
 int	ft_putdec(int dec);
 int	ft_putunsignnbr(unsigned int nbr);

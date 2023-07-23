@@ -6,13 +6,13 @@
 /*   By: muoz <muoz@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/22 18:12:33 by muoz              #+#    #+#             */
-/*   Updated: 2023/07/22 21:02:40 by muoz             ###   ########.fr       */
+/*   Updated: 2023/07/23 15:06:56 by muoz             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putudec(unsigned int dec)
+static int	ft_putudec(unsigned int dec)
 {
 	long	ldec;
 	int		ret;
