@@ -8,7 +8,7 @@ OBJS		= $(SRCS:%.c=%.o)
 
 FLAGS		= -Wall -Werror -Wextra
 
-$(NAME):
+$(NAME): $(OBJS)
 	gcc $(FLAGS) -c $(SRCS)
 	ar rc $(NAME) $(OBJS)
 
